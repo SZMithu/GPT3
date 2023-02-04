@@ -1,0 +1,96 @@
+.gpt3__footer {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background: var(--color-footer);
+}
+
+.gpt3__footer-heading {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 5rem;
+}
+
+.gpt3__footer-heading h1 {
+     font-family: var(--font-family);
+     font-style: normal;
+     font-weight: 800;
+     font-size: 62px;
+     line-height: 75px;
+     text-align: center;
+     letter-spacing: -0.04em;
+     margin-bottom: 3rem;
+
+}
+
+.gpt3__footer-heading button {
+     background: #031B34;
+     font-family: var(--font-family);
+     font-size: 18px;
+     line-height: 21px;
+     padding: 1rem;
+     color: #FFFFFF;
+     cursor: pointer;
+     border-color: #FFFFFF;
+     outline: none;
+}
+
+.gpt3__footer-heading button:hover {
+     background: #FFFFFF;
+     color: #031B34;
+     outline: none;
+}
+
+.gpt3__footer-container {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     font-family: var(--font-family);
+     color: #FFFFFF;
+}
+.gpt3__footer-container__column1 img {
+     margin-bottom: 1rem;
+}
+.gpt3__footer-container div {
+     flex: 1;
+     margin-bottom: 2rem;
+}
+
+.gpt3__footer-container h4 {
+     font-size: 14px;
+     line-height: 16px;
+     margin-bottom: 1.5rem;
+}
+
+.gpt3__footer-container p {
+     font-size: 12px;
+     line-height: 14px;
+     color: var(--color-text);
+     margin-bottom: 1rem;
+     cursor: pointer;
+}
+.gpt3__footer-container .gpt3__footer-container__column p:hover {
+     color: #ffffff;
+}
+.gpt3__footer-copytext p {
+     color: var(--color-text);
+}
+@media screen and (max-width: 990px) {
+     .gpt3__footer-heading h1 {
+          font-size: 48px;
+          line-height: 62px;    
+     }
+}
+@media screen and (max-width: 767px) {
+     .gpt3__footer-container {
+          flex-direction: column;
+     }
+     .gpt3__footer-heading h1 {    
+          font-size: 38px;
+          line-height: 48px;    
+     }
+}
