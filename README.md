@@ -11,5 +11,4 @@ Clone/Download this repository and run command
 
 ## Description
 
-The app made with React Js following the youtube tutorial link below
-https://www.youtube.com/watch?v=F627pKNUCVQ
+The app made with React Js.
